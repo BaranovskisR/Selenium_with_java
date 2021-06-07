@@ -19,7 +19,6 @@ public class Task1 {
         driver.get("https://kristinek.github.io/site/tasks/enter_a_number");
         driver.manage().window().maximize();
         Thread.sleep(2000);
-
     }
     @Test
     public void errorOnNumberTooSmall(){
