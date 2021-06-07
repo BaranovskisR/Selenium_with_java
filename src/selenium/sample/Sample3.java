@@ -24,7 +24,7 @@ public class Sample3 {
     @Test
     public void assertEqualsExample(){
         WebElement heading1 = driver.findElement(By.id("heading_1"));
-        String expectedValue = "Heading 12341";
+        String expectedValue = "Heading 123";
         String actualValue =  heading1.getText();
         Assert.assertEquals("Message", expectedValue, actualValue);
     }
