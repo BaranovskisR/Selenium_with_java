@@ -31,17 +31,17 @@ public class Sample8 {
         driver.quit();
     }
 
-    @Test
-    public void verifyFontSize()
-    {
-//        WebElement element1 = driver.findElement(By.cssSelector("p.w3-deep-purple"));
-//        String actualFontSize = element1.getCssValue("font-size");
-//        Assert.assertEquals("15px", actualFontSize);
-//        System.out.println(element1.getCssValue("font-family"));
-//        System.out.println(element1.getCssValue("background-color"));
-//        Assert.assertEquals("rgba(103, 58, 183, 1)",element1.getCssValue("background-color") );
-//        System.out.println(element1.getCssValue("padding-left"));
-    }
+//    @Test
+//    public void verifyFontSize()
+//    {
+////        WebElement element1 = driver.findElement(By.cssSelector("p.w3-deep-purple"));
+////        String actualFontSize = element1.getCssValue("font-size");
+////        Assert.assertEquals("15px", actualFontSize);
+////        System.out.println(element1.getCssValue("font-family"));
+////        System.out.println(element1.getCssValue("background-color"));
+////        Assert.assertEquals("rgba(103, 58, 183, 1)",element1.getCssValue("background-color") );
+////        System.out.println(element1.getCssValue("padding-left"));
+//    }
 
     @Test
     public void verifyBackgroundColor()
