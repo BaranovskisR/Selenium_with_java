@@ -71,6 +71,6 @@ public class Sample10 {
     public void mytest2()
     {
         WebDriverWait w8 = new WebDriverWait(driver, 10);
-        w8.until(ExpectedConditions.attributeContains(By.xpath("//p"), "style", "color: red;"));
+        w8.until(ExpectedConditions.attributeContains(By.xpath("//p"), "style", "color: green;"));
     }
 }
