@@ -47,6 +47,7 @@ public class Sample12 {
         agePage.submit();
         String actualMessage = agePage.errorMsg();
         Assert.assertEquals("You haven't entered anything in age field", actualMessage);
+      //  agePage.clickOnHomePage();
     }
     @Test
     public void scenario3(){
